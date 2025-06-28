@@ -1,3 +1,13 @@
+# Pengaturan build dasar untuk Netlify
 [build]
-  publish = "public"
-  functions = "netlify/functions"
+  # Direktori yang berisi file-file yang akan di-deploy (HTML, CSS, JS)
+  publish = "public/"
+  
+  # Direktori tempat Netlify akan mencari Serverless Functions Anda
+  functions = "netlify/functions/"
+
+# Anda bisa menambahkan redirect rules di sini jika diperlukan
+# [[redirects]]
+#   from = "/api/*"
+#   to = "/.netlify/functions/:splat"
+#   status = 200

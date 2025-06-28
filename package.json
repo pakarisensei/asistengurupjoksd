@@ -1,7 +1,14 @@
 {
-  "name": "pjok-modul-netlify",
+  "name": "asisten-pjok-netlify",
   "version": "1.0.0",
+  "description": "Aplikasi Asisten Guru PJOK dengan Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^3.3.2"
   }
 }
