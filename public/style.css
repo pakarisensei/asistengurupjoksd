@@ -14,11 +14,13 @@ body {
 .prose .lkpd-table, .prose .lkpd-table th, .prose .lkpd-table td { border: 1px solid #9ca3af; }
 .prose .lkpd-table th { background-color: #e5e7eb; }
 .prose .deep-learning-box { background-color: #eef2ff; border-left: 4px solid #4f46e5; padding: 1rem; margin-top: 1rem; border-radius: 0.5rem; }
+
 #gemini-modal-content ul { list-style-type: disc; padding-left: 1.5rem; }
 #gemini-modal-content ol { list-style-type: decimal; padding-left: 1.5rem; }
 #gemini-modal-content strong { font-weight: 700; }
 #gemini-modal-content h3 { font-size: 1.25rem; font-weight: bold; margin-top: 1rem; margin-bottom: 0.5rem; }
 #gemini-modal-content a { color: #4f46e5; text-decoration: underline; }
+
 @media print {
     body * { visibility: hidden; }
     #output-modul, #output-modul * { visibility: visible; }
